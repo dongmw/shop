@@ -1,0 +1,104 @@
+.is_something .am-icon-check{
+    color: blue;
+}
+.is_something .am-icon-close{
+    color: red;
+}
+
+.something .am-icon-check{
+    color: blue;
+}
+.something .am-icon-close{
+    color: red;
+}
+
+.pagination {
+    padding-left: 0;
+    margin: 1.5rem 0;
+    list-style: none;
+    color: #999;
+    text-align: left
+}
+
+.pagination:after,
+.pagination:before {
+    content: " ";
+    display: table
+}
+
+.pagination:after {
+    clear: both
+}
+
+.pagination > li {
+    display: inline-block
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    line-height: 1.2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin-bottom: 5px;
+    margin-right: 5px
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    margin-right: 0
+}
+
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    background-color: #eee
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #0e90d2;
+    border-color: #0e90d2;
+    cursor: default
+}
+
+.pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+    color: #999;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.pagination .pagination-prev {
+    float: left
+}
+
+.pagination .pagination-prev a {
+    border-radius: 0
+}
+
+.pagination .pagination-next {
+    float: right
+}
+
+.pagination .pagination-next a {
+    border-radius: 0
+}
+
+.pagination-centered {
+    text-align: center
+}
+
+.pagination-right {
+    text-align: right
+}
+
+
+
+
+
+
+
+
